@@ -1,0 +1,19 @@
+# Archivos compilados de Java (No los necesitamos en Git)
+*.class
+
+# Carpetas de compilación
+bin/
+build/
+out/
+
+# Archivos de configuración de editores (VS Code, IntelliJ, Eclipse)
+.vscode/
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
