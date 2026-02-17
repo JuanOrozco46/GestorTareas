@@ -1,5 +1,5 @@
 package src.com.gimnasio.util;
-
+import java.util.Scanner;
 public class EntradaSalida {
      private static Scanner sc = new Scanner(System.in);
 

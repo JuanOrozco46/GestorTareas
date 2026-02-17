@@ -1,18 +1,22 @@
 package src.com.gimnasio.modelo;
-
 public class Cita {
-    package src.com.gimnasio.modelo;
-
-public class Cita {
-    
+    private int id;
     private String nombre;
     private String fecha;
     private String hora;
 
-    public Cita(String nombre, String fecha, String hora){
+    public Cita(int id, String nombre, String fecha, String hora){
+        this.id = id;
         this.nombre = nombre;
         this.fecha = fecha;
         this.hora = hora;
+    }
+
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -36,11 +40,11 @@ public class Cita {
     }
 
     public String toString() {
-        return "Cita{" + "nombre='" + nombre + '\'' + 
+        return "Cita{" +"Id"+ id + "nombre='" + nombre + '\'' + 
                 ", fecha='" + fecha + '\'' +
                 ", hora='" + hora + '\'' +
                 '}';
     }
 }
 
-}
+
