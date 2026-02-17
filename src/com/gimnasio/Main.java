@@ -9,7 +9,7 @@ public class Main {
         GestorAgenda gestor = new GestorAgenda();
         boolean continuar = true;
 
-        System.out.println("Bienvenido al sistema de gestión 'El Horno Gym'");
+        System.out.println("Bienvenido al sistema de gestión 'Gym'");
 
         while (continuar) {
             System.out.println("\n--- MENÚ PRINCIPAL ---");
